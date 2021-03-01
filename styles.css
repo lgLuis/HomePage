@@ -2,10 +2,93 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+https://colorhunt.co/palette/253093
+https://colorhunt.co/palette/226158
+f5f4f4      simil gris
+cae4db      simil verde/claro
+cdac81      simil beige
+00303f      verde oscuro?
+
+
+*/
+
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+
 }
 
+.sobreMi,
+.portfolio,
+.experiencia,
+.contacto{
+    background-color: #cae4db;
+}
+
+
 /*HEADER*/
+.header{
+    width: 96%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #00303f;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+    grid-column-start: 1;
+    grid-column-end: -1;
+    
+}
+
+.header>h1{
+    padding: 10px;
+    background: #F5F4F4;
+    background: -webkit-linear-gradient(to top, #F5F4F4 0%, #cae4db 100%);
+    background: -moz-linear-gradient(to top, #F5F4F4 0%, #cae4db 100%);
+    background: linear-gradient(to top, #F5F4F4 0%, #cae4db 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header>h1:hover{
+    background: #5DF576;
+    background: -webkit-linear-gradient(to top, #5DF576 0%, #A2E4E0 100%);
+    background: -moz-linear-gradient(to top, #5DF576 0%, #A2E4E0 100%);
+    background: linear-gradient(to top, #5DF576 0%, #A2E4E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 
 /*MAIN*/
+
+
+.sobreMi{
+    min-height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 25px;
+    
+}
+
+.sobreMiCont{
+    min-height: 100px;
+    grid-column-start: 2;
+    grid-column-end: -1;
+    border: 1px solid red;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 25px;
+
+}
+
+
+
+
 
 /*FOOTER*/
