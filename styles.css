@@ -27,7 +27,17 @@ cdac81      simil beige
 .portfolio,
 .experiencia,
 .contacto{
-    background-color: #cae4db;
+    font-weight: bold;
+
+}
+
+
+.main{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
 }
 
 
@@ -68,27 +78,62 @@ cdac81      simil beige
 /*MAIN*/
 
 
-.sobreMi{
-    min-height: 100px;
+.sobreMi,
+.portfolio,
+.experiencia,
+.contacto
+{
+    min-height: 200px;
     grid-column-start: 1;
     grid-column-end: 2;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
     margin: 25px;
-    
+    text-align: center;
+    padding-top: 25px;
+    border: 1px solid white;
 }
 
-.sobreMiCont{
+.sobreMiCont,
+.portfolioCont,
+.experienciaCont,
+.contactoCont
+{
     min-height: 100px;
     grid-column-start: 2;
     grid-column-end: -1;
-    border: 1px solid red;
+    border: 1px solid white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
     margin: 25px;
+    padding: 25px;
+    text-align: justify;
+}
+
+.portfolioCont a{
+    text-decoration: none;
+    padding: 10px;
+}
+.links{
+    margin-top: 40px;
+    text-align: center;
 
 }
 
-
-
+.links>a{
+    padding: 30px;
+    color: black;
+}
 
 
 /*FOOTER*/
+.footer{
+    min-height: 120px;
+    background-color: #00303f;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.footer>p{
+    padding: 50px;
+    color: #cae4db;
+}
+
