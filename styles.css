@@ -11,8 +11,6 @@ f5f4f4      simil gris
 cae4db      simil verde/claro
 cdac81      simil beige
 00303f      verde oscuro?
-
-
 */
 
 .contenedor{
@@ -26,9 +24,8 @@ cdac81      simil beige
 .sobreMi,
 .portfolio,
 .experiencia,
-.contacto{
+.contacto {
     font-weight: bold;
-
 }
 
 
@@ -85,7 +82,7 @@ cdac81      simil beige
 .experiencia,
 .contacto
 {
-    min-height: 200px;
+    min-height: 300px;
     grid-column-start: 1;
     grid-column-end: 2;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -100,7 +97,7 @@ cdac81      simil beige
 .experiencia:hover,
 .contacto:hover
 {
-    min-height: 200px;
+    min-height: 300px;
     grid-column-start: 1;
     grid-column-end: 2;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -138,7 +135,7 @@ cdac81      simil beige
 .experienciaCont,
 .contactoCont
 {
-    min-height: 100px;
+    min-height: 300px;
     grid-column-start: 2;
     grid-column-end: -1;
     border: 2px solid white;
@@ -153,7 +150,7 @@ cdac81      simil beige
 .experienciaCont:hover,
 .contactoCont:hover
 {
-    min-height: 100px;
+    min-height: 300px;
     grid-column-start: 2;
     grid-column-end: -1;
     border: 1px solid white;
@@ -164,9 +161,6 @@ cdac81      simil beige
     border: 2px solid;
     border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
 }
-
-
-
 
 
 
