@@ -118,7 +118,7 @@ cdac81      simil beige
     background: -webkit-linear-gradient(to bottom right, #FF5E00 0%, #FF00E6 100%);
     background: -moz-linear-gradient(to bottom right, #FF5E00 0%, #FF00E6 100%);
     background: linear-gradient(to bottom right, #FF5E00 0%, #FF00E6 100%);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
