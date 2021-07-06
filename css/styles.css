@@ -191,3 +191,31 @@ cdac81      simil beige
     font-size: 2.5rem;
 }
 
+
+.colorCss{
+    text-shadow: 0px 0px 33px rgba(37,75,221,1);
+}
+.colorHtml{
+    text-shadow: 0px 0px 33px rgba(222,78,37,1);
+}
+.colorJs{
+    text-shadow: 0px 0px 33px rgba(222,157,39,1);
+}
+.colorBoot{
+    text-shadow: 0px 0px 33px rgba(123,17,243,1);
+}
+.colorReach{
+    text-shadow: 0px 0px 33px rgb(161, 187, 194);
+}
+.colorNode{
+    text-shadow: 0px 0px 33px rgba(140,192,64,1);
+}
+.colorSql{
+    text-shadow: 0px 0px 33px rgba(238,24,17,1);
+}
+.colorSass{
+    text-shadow: 0px 0px 33px rgba(199,99,149,1);
+}
+.colorWordPress{
+    text-shadow: 0px 0px 33px rgba(32,113,150,1);
+}
