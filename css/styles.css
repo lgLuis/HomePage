@@ -92,10 +92,22 @@ cdac81      simil beige
     border: 2px solid white;
     font-size: 1.6rem;
 }
-.sobreMi{grid-area: sobreMi;}
-.portfolio{grid-area: portfolio;}
-.experiencia{grid-area: experiencia;}
-.contacto{grid-area: contacto;}
+.sobreMi{
+    grid-area: sobreMi;
+    margin-bottom: 2.5rem;
+}
+.portfolio{
+    grid-area: portfolio;
+    margin-bottom: 2.5rem;
+}
+.experiencia{
+    grid-area: experiencia;
+    margin-bottom: 2.5rem;
+}
+.contacto{
+    grid-area: contacto;
+    margin-bottom: 2.5rem;
+}
 
 .sobreMi:hover,
 .portfolio:hover,
@@ -133,6 +145,7 @@ cdac81      simil beige
     padding: 1rem;
     text-align: justify;
     font-size: 1.2rem;
+    margin-bottom: 2.5rem;
 }
 
 .sobreMiCont{grid-area: sobreMiCont;}
